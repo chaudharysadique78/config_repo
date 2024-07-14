@@ -1,4 +1,9 @@
 spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
   application:
     name: user_service
   datasource:
@@ -14,5 +19,3 @@ spring:
 
 server:
   port: 8081
-  
-  
