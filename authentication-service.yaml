@@ -4,7 +4,7 @@ spring:
       group-id: "default"
       bootstrap-servers: localhost:9092
   application:
-    name: authentication_service
+    name: authentication-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.NonRegisteringDriver
     url: jdbc:mysql://localhost:3306/authorFinderApp?createDatabaseIfNotExist=true
